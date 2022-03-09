@@ -1,0 +1,63 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    color: #fefefe;
+    /* text-decoration: #00000086; */
+}
+
+body {
+    background-image: url(/movie\ tape\ gif.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.content {
+    margin-top: 4%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+    width: 80%;
+    display: block;
+    align-items: center;
+    background: rgba(59, 0, 66, 0.774);
+    box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0.74);
+    backdrop-filter: blur( 3px );
+    -webkit-backdrop-filter: blur( 17px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+/* glow text styling */
+.glow {
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #9900ff86, 0 0 30px #9900ff86;
+}
+
+to {
+    text-shadow: 0 0 20px hsl(305, 100%, 50%), 0 0 30px  hsl(305, 100%, 50%);
+}
+}
+
+.list {
+    padding: 1px;
+    /* margin-right: ; */
+    margin-left: 40%;
+    /* display: flex; */
+}
+/* footerstyling */
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: purple;
+    color: white;
+    text-align: center;
+ }
